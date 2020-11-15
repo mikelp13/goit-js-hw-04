@@ -15,7 +15,6 @@ const account = {
   },
 };
 const copyAccount = Object.assign({}, account);
-console.log(copyAccount);
 copyAccount.orders = [...account.orders];
 
 
